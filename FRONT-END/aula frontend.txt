@@ -1,0 +1,4 @@
+html (HyperText Markup Language)
+
+	-todo atributo tem que receber um valor
+	-toda linguagem possui uma estrutura base para começar a ser construida no caso da linguagem html (<html> - <head>)

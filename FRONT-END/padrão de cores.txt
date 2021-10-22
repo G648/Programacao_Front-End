@@ -1,0 +1,7 @@
+htmml funciona com numeros hexadecimais (00 como minimo e FF como máximo)
+R	G	B
+00	00	FF	tudo azul
+FF	00	00	tudo vermelho
+00	00	00	tudo preto
+FF	FF	FF	Tudo branco
+F	F	F	modelo simplificado
