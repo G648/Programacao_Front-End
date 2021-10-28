@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">  
+    <head>        
+        <style>
+            .cinza{
+                background-color: #DCDCDC;
+                width: 550px;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>Dlivery</title>
+    </head>
+    <body >
+        <h1 class="cinza">Cadastro de Delivery</h1>
+        <form class="cinza">
+            <label>Nome</label>
+            <input type="text" name="Nome" value="Digite aqui o seu nome" size="20" maxlength="150"/>
+            <br><br>
+            <label>Email</label> <!--Cria um objeto-->
+            <input type="text" name="Email" value="Digite aqui o seu Email" size="20" maxlength="150"/>
+            <br><br>  
+            <input type="reset"> 
+            <br><br>
+            <label>Data</label>
+            <input type="date" name="Data_pedido"  size="25" maxlength="150"/>
+            <br><br>
+            <label>Senha</label>
+            <input type="password" name="Senha" size="25" maxlength="150"/>
+            <br><br>
+            <label>Data e hora do pedido</label>
+            <input type="datetime-local" name="datahora_pedido"/>
+            <br><br>
+            <label>Telefone</label>
+            <input type="tel" name="telefone" value="Digite aqui o seu telefone" size="20">
+            <br><br>
+            <label for="alternativa1"> casa </label>
+            <input type="checkbox" id="alternativa1"  name="alternativa "value="A"/> 
+            <label for="alternativa2"> prédio </label>
+            <input type="radio" id="alternativa2"  name="alternativa "value="B"/> 
+            <label for="alternativa3"> comercio</label>
+            <input type="checkbox" id="alternativa3"  name="alternativa "value="C"/> 
+            <label for="alternativa4"> nenhuma das opções </label>
+            <input type="radio" id="alternativa4"  name="alternativa "value="D"/> 
+            <br><br>
+            <label>Tipo de Endereço</label>
+            <select name="tp_endereço" id="tp_endereço">
+                <option value="AC">Casa</option>
+                <option value="AC">prédio</option>
+                <option value="AC">Comercio</option>
+                <option value="AC">Nehuma das opções</option>
+                <br><br>
+            </select>
+            <br><br>
+            <textarea name="Texto" id="texto" rows="10" cols="60"> </textarea>
+            <br>
+            <input type="submit" name="enviar" value="Salvar"/>
+            <button type="button" class="btn btn-success">Submit</button>
+            <input type="button" onclick="alert('Parabens, voce conseguiu completar o desafio!!')" value="Clique Aqui">
+        </form>
+    </body>
+</html>
