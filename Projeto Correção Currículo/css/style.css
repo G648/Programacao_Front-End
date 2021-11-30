@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ul{
+    list-style-type: none;
+} */
+
+.embrulho{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: crimson;
+    height: 25vh;
+}
+
+.centralizar_elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+#img_fotodeperfil{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    /* serve para não distorcer a imagem  */
+}
+
+#img_section1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/pinguim.jpg);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+}
+
+#section1{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+#textos_section1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.distance{
+    margin-top: 64px;  
+    margin-bottom: 64px; 
+}
+
+#section2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#conteudo_section2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artigo_section2{
+    width: 45%;
+    background-color: yellowgreen;
+    padding: 2%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+footer{
+    background-color: violet;
+    height: 5vh;
+}
+
+footer p {
+    height: 100%;
+}
